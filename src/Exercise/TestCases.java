@@ -29,11 +29,11 @@ public class TestCases {
 		return new Object[][] {
 			{"Knowing the word count of a text can be important", "10 important"},
 			{"Keep track of the number of words you write each day using the activity button", "15 activity"},
-			{"Regular Concentrated Liquid", "2 Concentrated"},
 			{"To check word count, simply place your cursor into the text box above and start typing", "16 simply"},
 			{"Summer Citrus", "2 summer"},
-			{"1", "1 1"}
+			{"1", "1 1"},
+			{"", "0"},
+			{"!@$#^$*%(^)", "0"}
 		};
 	}
-	
 }

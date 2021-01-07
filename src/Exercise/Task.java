@@ -11,6 +11,10 @@ public class Task {
 
 		/** Replacing all characters inside the String */
 		actualText = actualText.replaceAll("[^a-zA-Z0-9 ]", "").toLowerCase();
+		
+		if(actualText.isEmpty()) {
+			return "0";
+		}
 
 		/** Splitting the String by spaces and saving into the array of String */
 		String[] array = actualText.split(" ");

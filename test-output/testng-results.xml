@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45" started-at="2021-01-07T08:58:31 EST" finished-at="2021-01-07T08:58:31 EST">
+  <suite name="Default suite" duration-ms="42" started-at="2021-01-07T13:25:24 EST" finished-at="2021-01-07T13:25:24 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45" started-at="2021-01-07T08:58:31 EST" finished-at="2021-01-07T08:58:31 EST">
+    <test name="Default test" duration-ms="42" started-at="2021-01-07T13:25:24 EST" finished-at="2021-01-07T13:25:24 EST">
       <class name="Exercise.TestCases">
-        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="testMethod" duration-ms="8" started-at="2021-01-07T08:58:31 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T08:58:31 EST">
+        <test-method status="PASS" signature="checkSentense(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="checkSentense" duration-ms="8" started-at="2021-01-07T13:25:24 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T13:25:24 EST">
           <params>
             <param index="0">
               <value>
@@ -22,8 +22,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="testMethod" duration-ms="1" started-at="2021-01-07T08:58:31 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T08:58:31 EST">
+        </test-method> <!-- checkSentense -->
+        <test-method status="PASS" signature="checkSentense(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="checkSentense" duration-ms="1" started-at="2021-01-07T13:25:24 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T13:25:24 EST">
           <params>
             <param index="0">
               <value>
@@ -38,66 +38,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="FAIL" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="testMethod" duration-ms="1" started-at="2021-01-07T08:58:31 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T08:58:31 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Regular Concentrated Liquid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2 Concentrated]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [2 Concentrated] but found [3 concentrated]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [2 Concentrated] but found [3 concentrated]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at Exercise.TestCases.testMethod(TestCases.java:19)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="testMethod" duration-ms="1" started-at="2021-01-07T08:58:31 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T08:58:31 EST">
+        </test-method> <!-- checkSentense -->
+        <test-method status="PASS" signature="checkSentense(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="checkSentense" duration-ms="1" started-at="2021-01-07T13:25:24 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T13:25:24 EST">
           <params>
             <param index="0">
               <value>
@@ -112,8 +54,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="FAIL" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="testMethod" duration-ms="1" started-at="2021-01-07T08:58:31 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T08:58:31 EST">
+        </test-method> <!-- checkSentense -->
+        <test-method status="PASS" signature="checkSentense(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="checkSentense" duration-ms="1" started-at="2021-01-07T13:25:24 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T13:25:24 EST">
           <params>
             <param index="0">
               <value>
@@ -122,56 +64,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[2 citrus]]>
+                <![CDATA[2 summer]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [2 citrus] but found [2 summer]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [2 citrus] but found [2 summer]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at Exercise.TestCases.testMethod(TestCases.java:19)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="testMethod" duration-ms="1" started-at="2021-01-07T08:58:31 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T08:58:31 EST">
+        </test-method> <!-- checkSentense -->
+        <test-method status="PASS" signature="checkSentense(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="checkSentense" duration-ms="1" started-at="2021-01-07T13:25:24 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T13:25:24 EST">
           <params>
             <param index="0">
               <value>
@@ -186,7 +86,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
+        </test-method> <!-- checkSentense -->
+        <test-method status="PASS" signature="checkSentense(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="checkSentense" duration-ms="1" started-at="2021-01-07T13:25:24 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T13:25:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSentense -->
+        <test-method status="PASS" signature="checkSentense(java.lang.String, java.lang.String)[pri:0, instance:Exercise.TestCases@7791a895]" name="checkSentense" duration-ms="0" started-at="2021-01-07T13:25:24 EST" data-provider="getDataFromDataProvider" finished-at="2021-01-07T13:25:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@$#^$*%(^)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSentense -->
       </class> <!-- Exercise.TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
