@@ -1,12 +1,10 @@
 package Exercise;
 
-import org.testng.annotations.Test;
-
 public class Task {
 
 	/**
 	 * The method to find the length of the sentence and the longest String in it
-	 * @param actualText
+	 * @param actualText, we expect only String as a input, because we are not handling any exception
 	 * @return the sentence length and the longest String
 	 */
 	public static String toManipulateString(String actualText) {
@@ -29,7 +27,7 @@ public class Task {
 				longestString = array[i];
 			}
 		}
-
+		
 		/** Returning the sentence length and the longest String */
 		return sentenceLength + " " + longestString;
 	}
